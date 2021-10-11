@@ -10,7 +10,7 @@
     <b-row class="mt-4">
       <b-col>
         <label for="redacted-text">Redacted Text</label>
-        <div name="document-text">
+        <div name="redacted-text">
           {{ redactedText }}</div>
       </b-col>
     </b-row>
@@ -39,7 +39,7 @@ export default {
         return []
       },      
     }
-  }
+  },
 }
 </script>
 
